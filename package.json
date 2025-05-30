@@ -7,8 +7,8 @@
 	"type": "module",
 		"scripts": {
 		  "dev": "next dev --turbo",
-		  "build": "next build",
-		  "start": "next start && next export -o dist",
+		  "build": "next build && next export -o dist && ls -R",
+		  "start": "next start",
 		  "lint": "biome check --write",
 		  "test": "vitest",
 		  "prepare": "pnpm husky",
