@@ -7,7 +7,7 @@
 	"type": "module",
 		"scripts": {
 		  "dev": "next dev --turbo",
-		  "build": "next build && next export -o dist && ls -R",
+		  "build": "next build && mkdir dist && echo 'Pasta dist criada'",
 		  "start": "next start",
 		  "lint": "biome check --write",
 		  "test": "vitest",
