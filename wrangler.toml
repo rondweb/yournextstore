@@ -1,0 +1,7 @@
+name = "shopleaftix" # Substitua pelo nome do seu projeto
+type = "javascript" # Ou "webpack", dependendo da sua configuração
+workers_dev = true
+compatibility_date = "2023-01-01" # Uma data antiga para garantir compatibilidade
+
+[site]
+bucket = "./dist"
