@@ -1,3 +1,6 @@
 name = "seu-projeto-shopleaftix" # Mantenha o nome do seu projeto
 workers_dev = true
 compatibility_date = "2024-01-01"
+
+[assets]
+directory = "./dist"
