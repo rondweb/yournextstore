@@ -7,7 +7,7 @@
 	"type": "module",
 		"scripts": {
 		  "dev": "next dev --turbo",
-		  "build": "next build && mkdir dist && echo 'Pasta dist criada'",
+		  "build": "next build && mkdir -p dist && cp -r .next/static dist && cp -r public dist && echo 'Assets copiados para a pasta dist'",
 		  "start": "next start",
 		  "lint": "biome check --write",
 		  "test": "vitest",
