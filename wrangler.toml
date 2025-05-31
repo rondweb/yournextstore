@@ -1,10 +1,9 @@
-name = "shopleaftix" # Mantenha o nome do seu projeto
-workers_dev = true
+name = "shopleaftix"
 compatibility_date = "2024-01-01"
+main = "./.vercel/output/_worker.js"
 
 [assets]
-directory = "./dist"
+directory = "./.vercel/output/static"
 
-# wrangler.toml (wrangler v3.88.0^)
 [observability.logs]
 enabled = true
