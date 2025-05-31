@@ -8,7 +8,7 @@
 		"scripts": {
 		  "dev": "next dev --turbo",
 		  "build:next": "next build",
-  		  "build:adapt": "npx @cloudflare/next-on-pages"
+  		  "build:adapt": "npx @cloudflare/next-on-pages",  		 
 		  "start": "next start",
 		  "lint": "biome check --write",
 		  "test": "vitest",
